@@ -2,6 +2,7 @@
 <html>
   <head>
     <link rel="icon" href="./resources/images/colmarfavicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:300,400,700" rel="stylesheet">
     <title>Colmar Academy</title>
     <link href="./css/reset.css" rel="stylesheet" type="text/css">
     <link href="./css/style.css" rel="stylesheet" type="text/css">
@@ -12,16 +13,16 @@
     <header>
         <div class="logo">
             <a href="#"><img src="./resources/images/ic-logo.svg" alt="Colmar Academy logo"></a>
-            <span>COLMAR</span><span>ACADEMY</span>
+            <span class="colmar">COLMAR</span><span class="academy">ACADEMY</span>
         </div>
       <nav>
-        <ul class="desktop">
+        <ul class="desktop" role="presentation">
           <li><a href="#">On campus</a></li>
           <li><a href="#">Online</a></li>
           <li><a href="#">For companies</a></li>
           <li><a href="#">Sign in</a></li>
         </ul>
-        <ul class="mobile">
+        <ul class="mobile" role="presentation">
           <li><a href="#"><img src="./resources/images/ic-logo.svg" alt="Colmar Academy logo"></a></li>
           <li><a href="#"><img src="./resources/images/ic-on-campus.svg" alt="On campus icon"></a></li>
           <li><a href="#"><img src="./resources/images/ic-online.svg" alt="Online icon"></a></li>
@@ -45,7 +46,7 @@
             <h1>Learn something new everyday</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
-          <div class="banner-button">
+          <div class="banner-button" role="button">
             Start here
           </div>
         </div>
@@ -55,14 +56,14 @@
 
       <div class="information-section">
         <div class="feature-story">
-          <img src="./resources/images/information-main.jpg" alt="Image of man reading">
+          <img src="./resources/images/information-main.jpg" alt="Man reading">
           <h2>It doesn't hurt to keep practicing</h2>
           <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non ccumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula." <br><br><br> <span>Emanuel, Sr Strategist at Hiring.com</span></p>
         </div>
         <div class="stories">
           <div class="story">
             <div class="story-image">
-            <img src="./resources/images/information-orientation.jpg" alt="Image of figures on a path" class="desktop">
+            <img src="./resources/images/information-orientation.jpg" alt="Figures on a path" class="desktop">
             <img src="./resources/images/information-orientation-mobile.jpg" alt="Image of figures on a path" class="mobile">
             </div>
             <div class="story-text"> <!-- also try it without this div -->
@@ -74,7 +75,7 @@
 
           <div class="story">
             <div class="story-image">
-            <img src="./resources/images/information-campus.jpg" alt="Image of a room on campus" class="desktop">
+            <img src="./resources/images/information-campus.jpg" alt="A room on campus" class="desktop">
             <img src="./resources/images/information-campus-mobile.jpg" alt="Image of a room on campus" class="mobile">
             </div>
             <div class="story-text">
@@ -105,50 +106,50 @@
         <h2>Start learning</h2>
         <div class="wrap-container">
           <div class="course">
-            <img src="./resources/images/course-software.jpg" alt="Image of a desk with computer monitors">
+            <img src="./resources/images/course-software.jpg" alt="A desk with computer monitors">
             <div class="text-box">
               <h3>Software engineering</h3>
-              <p class="course-p">COURSE</p>
+              <p class="course-p">COURSES</p>
               <p>Web Development, Mobile Development, iOT, APIs</p>
             </div>
           </div>
           <div class="course">
-            <img src="./resources/images/course-computer-art.jpg" alt="Image of a hand holding a mobile phone">
+            <img src="./resources/images/course-computer-art.jpg" alt="A hand holding a mobile phone">
             <div class="text-box">
               <h3>Computer art</h3>
-              <p class="course-p">COURSE</p>
+              <p class="course-p">COURSES</p>
               <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
             </div>
           </div>
           <div class="course">
-            <img src="./resources/images/course-design.jpg" alt="Image of a person using a camera">
+            <img src="./resources/images/course-design.jpg" alt="A person using a camera">
             <div class="text-box">
               <h3>Design</h3>
-              <p class="course-p">COURSE</p>
+              <p class="course-p">COURSES</p>
               <p>User Experience Design, User Research, Visual Design</p>
             </div>
           </div>
           <div class="course">
-            <img src="./resources/images/course-data.jpg" alt="Image of a laptop">
+            <img src="./resources/images/course-data.jpg" alt="A laptop">
             <div class="text-box">
               <h3>Data</h3>
-              <p class="course-p">COURSE</p>
+              <p class="course-p">COURSES</p>
               <p>Data Science, Big Data, SQL, Data Visualization</p>
             </div>
           </div>
           <div class="course">
-            <img src="./resources/images/course-business.jpg" alt="Image of a chess board">
+            <img src="./resources/images/course-business.jpg" alt="A chess board">
             <div class="text-box">
               <h3>Business</h3>
-              <p class="course-p">COURSE</p>
+              <p class="course-p">COURSES</p>
               <p>Product Development, Business Development, Startup</p>
             </div>
           </div>
           <div class="course">
-            <img src="./resources/images/course-marketing.jpg" alt="Image of a watch">
+            <img src="./resources/images/course-marketing.jpg" alt="A watch">
             <div class="text-box">
               <h3>Marketing</h3>
-              <p class="course-p">COURSE</p>
+              <p class="course-p">COURSES</p>
               <p>Analytics, Content Marketing, Mobile Marketing</p>
             </div>
           </div>
@@ -200,7 +201,7 @@
         <span>© 2016 Colmar Academy. All rights reserved</span>
       </div>
       <nav class="terms">
-        <ul>
+        <ul role="presentation">
           <li><a href="#">Terms</a></li>
           <li><a href="#">Privacy</a></li>
         </ul>
